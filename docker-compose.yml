@@ -1,10 +1,25 @@
 version: '3'
     
 services:
+  selenium-hub:
+    image: selenium/hub:3.141.59-dubnium
+    ports:
+    - "4444:4444"
+  chrome:
+    image: selenium/node-chrome:3.141.59-dubnium
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - selenium-hub
+    environment:
+      - HUB_HOST=selenium-hub
+      - HUB_PORT=4444
   datascience-notebook:
     container_name: datascience-notebook
-    image: jupyter/datascience-notebook
+    build: ./
     volumes:
       - ./notebooks/:/home/jovyan/work
     ports:
       - 8888:8888
+    depends_on:
+      - chrome
