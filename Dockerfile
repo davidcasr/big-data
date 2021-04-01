@@ -1,5 +1,5 @@
 FROM jupyter/datascience-notebook
 
-# Install Selenium
-RUN pip install selenium
+# Install libraries
+RUN pip install selenium tweepy python-dotenv
 
