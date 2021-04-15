@@ -4,6 +4,7 @@
 - 02 Web Scraping
 - 03 APIs
 - 04 MongoDB
+- 05 Pandas
 
 # Big data y Datascience con Python 
 
@@ -11,5 +12,6 @@
 - 02 Web Scraping
 - 03 APIs
 - 04 MongoDB
+- 05 Pandas
 
 Made with ❤️ by @davidcasr
