@@ -5,6 +5,8 @@
 - 03 APIs
 - 04 MongoDB
 - 05 Pandas
+- 06 Data visualization
+- 07 Machine Learning 
 
 # Big data y Datascience con Python 
 
@@ -13,5 +15,7 @@
 - 03 APIs
 - 04 MongoDB
 - 05 Pandas
+- 06 Visualización de datos
+- 07 Aprendizaje automático 
 
 Made with ❤️ by @davidcasr
